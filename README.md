@@ -21,5 +21,9 @@ Rather than relying on static code or console printouts alone, this simulator re
 
 1. Clone this repository and open the project folder:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/search-maze-simulator.git](https://github.com/YOUR_USERNAME/search-maze-simulator.git)
+   git clone [https://github.com/jadedodds/search-maze-simulator.git](https://github.com/jadedodds/search-maze-simulator.git)
    cd search-maze-simulator
+
+2. Install the required dependency (`streamlit`):
+   ```bash
+   python3 -m pip install -r requirements.txt
