@@ -34,7 +34,6 @@ From inside the `search-maze-simulator` folder, start the Streamlit server:
 
 ```bash
 python3 -m streamlit run app.py
-Your default web browser will open the app (typically at http://localhost:8501 or http://localhost:8502). To stop the app later, click in your terminal and press Ctrl + C.
 
 ##How to Use It
 
