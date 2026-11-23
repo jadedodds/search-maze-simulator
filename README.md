@@ -1,6 +1,6 @@
 # Search Algorithm Visualizer & Maze Solver
 
-> **Demo Video (30–120 seconds):** Coming soon — will add link here after recording and uploading.
+> **Demo Video (30–120 seconds):** https://drive.google.com/file/d/1ZdtJHhOK4iz96jOBqmjCmivv-SMzPy14/view?usp=sharing
 
 ## Project Description & Purpose
 
