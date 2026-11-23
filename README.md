@@ -36,7 +36,8 @@ From inside the `search-maze-simulator` folder, start the Streamlit server:
 python3 -m streamlit run app.py
 Your default web browser will open the app (typically at http://localhost:8501 or http://localhost:8502). To stop the app later, click in your terminal and press Ctrl + C.
 
-How to Use It
+##How to Use It
+
 List Search & Race tab:
 
 Pick a preset list or type your own comma-separated numbers, then choose the Target number to find.
@@ -51,21 +52,24 @@ Select a maze (Winding Path or Dead-End Trap) and choose BFS (Shortest Path) or 
 
 Drag the Maze Step slider to watch cells get explored step by step and see the final path once Goal G is reached.
 
-Lessons Learned
+##Lessons Learned
+
 Recording step history makes visualizers flexible: Storing each step as a structured dictionary (with indices, pointers, comparison counts, and a plain-English message) made scrubbing forward and backward through a search or maze much cleaner than printing inside a loop.
 
 Preconditions matter in interactive tools: Testing Binary Search on unsorted data highlighted why clear warnings and input validation are essential so users don't get misleading results.
 
 Small setup and workflow details matter: Getting a clean local environment running—trusting the workspace folder, saving changes (Cmd + S) before rerunning, and launching with python3 -m streamlit run app.py instead of bare python3 app.py—made iterating on features much smoother.
 
-Opportunities
+##Opportunities
+
 Auto-play and speed control: Add a Play/Pause button and speed slider so users can watch step-by-step animations advance automatically in addition to dragging the slider manually.
 
 Interactive maze builder and A* search: Let users toggle walls, start (S), and goal (G) cells directly on the grid, and add A* alongside BFS and DFS.
 
 Additional algorithms and charts: Add interpolation search, recursive binary search, or a comparison chart showing how search counts scale as list size grows.
 
-Wins
+##Wins
+
 Built a complete, multi-tab interactive learning simulator in Python and Streamlit combining step-by-step search visualization, a Linear vs. Binary Race mode, and a BFS/DFS grid maze solver.
 
 Designed plain-English explanations and live counters so learners can see why each step happens, not just which item or cell changes.
